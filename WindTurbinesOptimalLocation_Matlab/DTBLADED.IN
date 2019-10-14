@@ -1,0 +1,2063 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<BladedProject ApplicationVersion="4.6.0.61">
+	<DataModelVersion>0.3</DataModelVersion>
+	<BladedData dataFormat="dtbladed">
+<![CDATA[
+CALCN	10
+MULTIBODY	1
+OPTNS	144887
+OUTSTYLE	B
+PATH	'C:\Program Files (x86)\DNV GL\Bladed 4.6 Educational\results'
+RUNNAME	powprod
+MSTART EIGENB
+NBLADE	 0
+BDAMP	
+MEND
+
+MSTART EIGENT
+NTOWER	0
+AZIMUTH	 0
+MEND
+
+MSTART RCON
+DIAM	 80
+NB	3
+TEETER	N
+PTC	1
+DELTA3	 0
+HEIGHT	 61.5
+HOFFST	 0
+TOWHT	 60
+TILT	 0
+CONE	 0
+SETANG	 0
+OVRHNG	 3.7
+CUTIN	 4
+CUTOUT	 25
+ROTN	C
+POSITN	U
+CNTLS	P
+TYPE	Variable
+SPIND	 2.5
+ROOT	 1.25
+EXTND	 1.9
+EXTDC	 .8
+MEND
+
+MSTART BGEOMMB
+NBE	18
+RJ	 0, 1.14815, 1.14815, 3.44444, 3.44444, 5.74074, 5.74074, 9.18519, 9.18519, 16.0741, 16.0741, 26.4074, 26.4074, 35.5926, 35.5926, 38.2333, 38.2333, 38.75
+DIST	 0, 1.14815, 1.14815, 3.44444, 3.44444, 5.74074, 5.74074, 9.18519, 9.18519, 16.0741, 16.0741, 26.4074, 26.4074, 35.5926, 35.5926, 38.2333, 38.2333, 38.75
+REF_X	 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+REF_Y	 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+CHORD	 2.06667, 2.06667, 2.06667, 2.75556, 2.75556, 3.44444, 3.44444, 3.44444, 3.44444, 2.75556, 2.75556, 1.83704, 1.83704, 1.14815, 1.14815, .688889, .688889, .028704
+TWIST	 0, 0, 0, .1570795, .1570795, .2268926, .2268926, .1919861, .1919861, .1361356, .1361356, 5.759582E-02, 5.759582E-02, 5.235984E-03, 5.235984E-03, 4.799651E-02, 4.799651E-02, 6.981311E-02
+CE_X	 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+CE_Y	 50, 50, 50, 38, 38, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29
+BTHICK	 100, 100, 100, 64, 64, 40, 40, 30, 30, 22, 22, 15, 15, 13, 13, 13, 13, 13
+FOIL	 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 4, 4, 4, 4, 4
+MOVING	M,M,M,M,M,M,M,M,M,M,M,M,M,M,M,M,M,M
+MEND
+
+MSTART BMASSMB
+CM_X	 0, 0, 0, .469303, .469303, .8998035, .8998035, .7632353, .7632353, .5428618, .5428618, .2302559, .2302559, 2.094384E-02, 2.094384E-02, .1919124, .1919124, .2790256
+CM_Y	 50, 50, 50, 37.96307, 37.96307, 28.89748, 28.89748, 28.92651, 28.92651, 28.96299, 28.96299, 28.99337, 28.99337, 28.99994, 28.99994, 28.99539, 28.99539, 28.99026
+MASS	 1084.77, 369.809, 369.809, 277.356, 277.356, 234.212, 234.212, 209.558, 209.558, 172.577, 172.577, 103.546, 103.546, 55.4713, 55.4713, 40.6789, 40.6789, 24.6539
+SINER	 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+RGRATIO	 1, 1, 1, .64, .64, .4, .4, .3, .3, .22, .22, .15, .15, .13, .13, .13, .13, .13
+BETA_M	 0, 0, 0, .1570795, .1570795, .2268926, .2268926, .1919861, .1919861, .1361356, .1361356, 5.759582E-02, 5.759582E-02, 5.235984E-03, 5.235984E-03, 4.799651E-02, 4.799651E-02, 6.981311E-02
+MEND
+
+MSTART RMASS
+HUBMAS	 14000
+HUBCTR	 0
+HUBINE	 12000
+CWTMAS	 0
+CWTINE	 0
+MEND
+
+MSTART BSTIFFMB
+EIFLAP	 7.472E+09, 2.433E+09, 2.433E+09, 1.408E+09, 1.408E+09, 8.341E+08, 8.341E+08, 5.561E+08, 5.561E+08, 2.085E+08, 2.085E+08, 2.954E+07, 2.954E+07, 2259000, 2259000, 113824, 113824, 3127.98
+EIEDGE	 7.472E+09, 2.607E+09, 2.607E+09, 2.085E+09, 2.085E+09, 1.425E+09, 1.425E+09, 1.286E+09, 1.286E+09, 5.648E+08, 5.648E+08, 1.216E+08, 1.216E+08, 2.433E+07, 2.433E+07, 4518000, 4518000, 8167.51
+BETA_S	 0, 0, 0, .1570795, .1570795, .2268926, .2268926, .1919861, .1919861, .1361356, .1361356, 5.759582E-02, 5.759582E-02, 5.235984E-03, 5.235984E-03, 4.799651E-02, 4.799651E-02, 6.981311E-02
+MEND
+
+MSTART TGEOM
+TMODEL	2
+NTE	8
+TJ	-15,-5,0,5,15,35,50,60
+TDIAM	3.5,3.36,3.35,3.26,3.19231,2.88462,2.73077,2.6
+TDRAGC	 .6
+OFFSHORE	1
+SEADEPTH	 10
+CDTOW	 1
+CMTOW	 2
+MEND
+
+MSTART TMASS
+TOWM	2935.71,2668.2,2574.9,2430.1,2214.09,1492.47,1131.66,824.972
+FMASS	 24000
+FOUNDI	 380000
+MEND
+
+MSTART TSTIFF
+EITOW	 2.46E+11, 2.09E+11, 1.945E+11, 1.75E+11, 1.43E+11, 7.81E+10, 5.65E+10, 4.22E+10
+TRANDOF	N
+ROTDOF	N
+TOWERGEOMSTIFF	0
+MEND
+
+MSTART NMASS
+NACMAS	 72000
+NMX	 0
+NMY	 1.3
+NMZ	-.6
+IYAW	 215000
+MEND
+
+MSTART DTRAIN
+DTMODEL	3
+GRATIO	 83.33
+GINERT	 60
+BPOS	3
+LSSDOF 0 0 0 1 0 0
+KLSS 0 0 0 1.6E+08 0 0
+KHSS	INF
+DLSS 0 0 0 250000 0 0
+LSSLENGTH	 0
+LSSHINGEPOS	 0
+MEND
+
+MSTART CONSTANTS
+RHO	 1.225
+RHOW	 1030
+VISCOS	 .0000182
+GRAVITY	 9.81
+MEND
+
+MSTART ADAT
+NFOILS	4
+FTYPE	F
+NTHICK	1
+NREYN	1
+SETNB	1
+SETNB	-1
+SETNB	-1
+SETNB	-1
+SETNB	-1
+SETNB	-1
+FTYPE	F
+NTHICK	1
+NREYN	1
+SETNB	2
+SETNB	-1
+SETNB	-1
+SETNB	-1
+SETNB	-1
+SETNB	-1
+FTYPE	F
+NTHICK	2
+NREYN	1
+SETNB	3
+SETNB	-1
+SETNB	-1
+SETNB	4
+SETNB	-1
+SETNB	-1
+FTYPE	F
+NTHICK	1
+NREYN	1
+SETNB	3
+SETNB	-1
+SETNB	-1
+SETNB	-1
+SETNB	-1
+SETNB	-1
+SETNB	1
+*SETNAME	demo_cyl
+XA	 50
+THICK	 99
+REYN	 6000000
+DEPL	 0
+NALPHA	98
+NVALS	3
+FORM TABLE DEG
+>	-180	 0	 1	 0
+>	-178	 0	 1	 0
+>	-174	 0	 1	 0
+>	-169	 0	 1	 0
+>	-168.3	 0	 1	 0
+>	-168	 0	 1	 0
+>	-167	 0	 1	 0
+>	-166	 0	 1	 0
+>	-165	 0	 1	 0
+>	-164	 0	 1	 0
+>	-162	 0	 1	 0
+>	-160	 0	 1	 0
+>	-158	 0	 1	 0
+>	-156	 0	 1	 0
+>	-154	 0	 1	 0
+>	-150	 0	 1	 0
+>	-145	 0	 1	 0
+>	-140	 0	 1	 0
+>	-135	 0	 1	 0
+>	-130	 0	 1	 0
+>	-125	 0	 1	 0
+>	-120	 0	 1	 0
+>	-115	 0	 1	 0
+>	-110	 0	 1	 0
+>	-105	 0	 1	 0
+>	-100	 0	 1	 0
+>	-95	 0	 1	 0
+>	-90	 0	 1	 0
+>	-85	 0	 1	 0
+>	-80	 0	 1	 0
+>	-75	 0	 1	 0
+>	-70	 0	 1	 0
+>	-65	 0	 1	 0
+>	-60	 0	 1	 0
+>	-55	 0	 1	 0
+>	-50	 0	 1	 0
+>	-45	 0	 1	 0
+>	-40	 0	 1	 0
+>	-35	 0	 1	 0
+>	-30	 0	 1	 0
+>	-25	 0	 1	 0
+>	-20	 0	 1	 0
+>	-18	 0	 1	 0
+>	-16	 0	 1	 0
+>	-15	 0	 1	 0
+>	-6	 0	 1	 0
+>	-4	 0	 1	 0
+>	-2	 0	 1	 0
+>	 0	 0	 1	 0
+>	 2	 0	 1	 0
+>	 4	 0	 1	 0
+>	 6	 0	 1	 0
+>	 8	 0	 1	 0
+>	 10	 0	 1	 0
+>	 11	 0	 1	 0
+>	 20	 0	 1	 0
+>	 25	 0	 1	 0
+>	 28	 0	 1	 0
+>	 30	 0	 1	 0
+>	 35	 0	 1	 0
+>	 40	 0	 1	 0
+>	 45	 0	 1	 0
+>	 50	 0	 1	 0
+>	 55	 0	 1	 0
+>	 60	 0	 1	 0
+>	 65	 0	 1	 0
+>	 70	 0	 1	 0
+>	 75	 0	 1	 0
+>	 80	 0	 1	 0
+>	 85	 0	 1	 0
+>	 90	 0	 1	 0
+>	 95	 0	 1	 0
+>	 100	 0	 1	 0
+>	 105	 0	 1	 0
+>	 110	 0	 1	 0
+>	 115	 0	 1	 0
+>	 120	 0	 1	 0
+>	 125	 0	 1	 0
+>	 130	 0	 1	 0
+>	 135	 0	 1	 0
+>	 140	 0	 1	 0
+>	 145	 0	 1	 0
+>	 150	 0	 1	 0
+>	 154	 0	 1	 0
+>	 156	 0	 1	 0
+>	 158	 0	 1	 0
+>	 160	 0	 1	 0
+>	 161	 0	 1	 0
+>	 162	 0	 1	 0
+>	 163	 0	 1	 0
+>	 163.4	 0	 1	 0
+>	 164	 0	 1	 0
+>	 166	 0	 1	 0
+>	 168	 0	 1	 0
+>	 170	 0	 1	 0
+>	 172	 0	 1	 0
+>	 176	 0	 1	 0
+>	 180	 0	 1	 0
+SETNB	2
+*SETNAME	LS1m21r2
+XA	 25
+THICK	 21
+REYN	 2000000
+DEPL	 0
+NALPHA	93
+NVALS	3
+FORM TABLE DEG
+>	-180	-.08828	 .0356	-.04065
+>	-177.793	 .083013	 .0385332	 .0411601
+>	-172.182	 .700664	 .0696315	 .316972
+>	-168.329	 1.08074	 .180098	 .456779
+>	-165.099	 .661072	 .267505	 .285577
+>	-159.593	 .476822	 .344047	 .220581
+>	-154.91	 .612242	 .426376	 .278532
+>	-150.611	 .69743	 .536458	 .321684
+>	-145.485	 .756548	 .680669	 .360409
+>	-141.269	 .7162	 .771878	 .361506
+>	-134.541	 .642577	 .828718	 .347442
+>	-127.576	 .571983	 .886081	 .336759
+>	-124.171	 .536551	 .937986	 .338233
+>	-120.559	 .466093	 1.00015	 .337224
+>	-115.235	 .36122	 1.0685	 .331676
+>	-109.229	 .286514	 1.1083	 .323644
+>	-104.326	 .179041	 1.14475	 .317612
+>	-100.654	 .0944182	 1.16668	 .313257
+>	-96.717	 .0224981	 1.18285	 .308579
+>	-88.294	-.0987983	 1.17985	 .291938
+>	-82.732	-.192087	 1.16569	 .279712
+>	-78.792	-.260585	 1.14766	 .270514
+>	-74.684	-.332289	 1.11245	 .258796
+>	-68.724	-.437124	 1.04423	 .240277
+>	-62.898	-.538479	 1.00284	 .227706
+>	-58.21	-.597396	 .964904	 .216304
+>	-53.667	-.656399	 .902	 .202992
+>	-50.765	-.672972	 .824839	 .187843
+>	-44.075	-.680016	 .70189	 .15994
+>	-38.087	-.697794	 .601615	 .139345
+>	-32.988	-.654592	 .508157	 .114918
+>	-29.644	-.534917	 .428544	 .0888158
+>	-24.435	-.385767	 .279636	 .0559128
+>	-18.9976	-.353596	 .190947	 .0422828
+>	-12.7843	-.462678	 .012	-.0504272
+>	-9.56	-.6	 .011	-.0554272
+>	-8	-.503854	 .0106997	-.0403466
+>	-7	-.382257	 .0102468	-.0460268
+>	-6	-.26066	 9.79383E-03	-.051707
+>	-5	-.139064	 9.34089E-03	-.0573871
+>	-4	-.0174673	 8.88795E-03	-.0630673
+>	-3	 .104129	 8.43501E-03	-.0687474
+>	-2	 .225726	 7.98207E-03	-.0744276
+>	-1	 .347322	 7.52913E-03	-.079949
+>	 0	 .449466	 7.19311E-03	-.0789469
+>	 1	 .574167	 7.25615E-03	-.0825671
+>	 2	 .693697	 7.62753E-03	-.0834669
+>	 3	 .824839	 8.08018E-03	-.0843964
+>	 4	 .962174	 9.26703E-03	-.0834881
+>	 5	 1.07325	 .0106429	-.0823929
+>	 6	 1.14229	 .0120623	-.0799296
+>	 7	 1.21133	 .0134816	-.0778327
+>	 8	 1.28751	 .0147784	-.0757448
+>	 9	 1.35534	 .0189813	-.0716283
+>	 10	 1.41838	 .0240659	-.0648523
+>	 11	 1.39586	 .0302	-.064
+>	 12	 1.35999	 .0388	-.064
+>	 14	 1.31902	 .0494	-.08
+>	 15	 1.3013	 .0622	-.09
+>	 16	 1.24995	 .0769	-.094
+>	 17	 1.20886	 .094	-.1
+>	 21.6052	 .805728	 .287518	-.0970675
+>	 26.0685	 .82482	 .443562	-.115436
+>	 30.4729	 .960391	 .578245	-.149242
+>	 36.2434	 .955236	 .721142	-.175905
+>	 43.0916	 .926053	 .811181	-.199176
+>	 47.5626	 .865285	 .874416	-.20942
+>	 55.5368	 .696753	 1.02168	-.229422
+>	 60.6687	 .625756	 1.09542	-.246506
+>	 66.9251	 .494851	 1.14396	-.259925
+>	 71.0713	 .400956	 1.17904	-.270017
+>	 75.4967	 .303082	 1.23513	-.285292
+>	 80.7546	 .198854	 1.26797	-.299503
+>	 86.9035	 .0991606	 1.27179	-.311714
+>	 91.8656	-.0141033	 1.26512	-.320474
+>	 95.7937	-.111741	 1.25984	-.32936
+>	 99.8441	-.213604	 1.25439	-.340657
+>	 104.9345	-.317091	 1.20479	-.344329
+>	 110.438	-.427282	 1.12724	-.344673
+>	 115.851	-.538665	 1.09443	-.362627
+>	 124.048	-.62882	 .977697	-.36456
+>	 129.729	-.694648	 .872127	-.361712
+>	 136.342	-.796478	 .805112	-.381556
+>	 140.532	-.770243	 .731898	-.365943
+>	 144.457	-.728508	 .632834	-.340744
+>	 145.071	-.721288	 .616169	-.336285
+>	 150.541	-.673789	 .466421	-.301286
+>	 155.322	-.597085	 .308061	-.254852
+>	 160.622	-.843305	 .271397	-.348484
+>	 163.39	-1.32423	 .194632	-.530644
+>	 168.462	-.88035	 .0725074	-.365485
+>	 175.014	-.474699	 .0278734	-.225261
+>	 180	-.08828	 .0356	-.04065
+SETNB	3
+*SETNAME	LS1m13r2
+XA	 25
+THICK	 13
+REYN	 2000000
+DEPL	 0
+NALPHA	87
+NVALS	3
+FORM TABLE DEG
+>	-180	-.08828	 .0356	-.04065
+>	-177.793	 .083013	 .0385332	 .0411601
+>	-172.182	 .700664	 .0696315	 .316972
+>	-168.549	 .917478	 .17244	 .389452
+>	-165.099	 .661072	 .267505	 .285577
+>	-159.593	 .476822	 .344047	 .220581
+>	-154.91	 .612242	 .426376	 .278532
+>	-150.611	 .69743	 .536458	 .321684
+>	-145.485	 .756548	 .680669	 .360409
+>	-141.269	 .7162	 .771878	 .361506
+>	-134.541	 .642577	 .828718	 .347442
+>	-127.576	 .571983	 .886081	 .336759
+>	-124.171	 .536551	 .937986	 .338233
+>	-120.559	 .466093	 1.00015	 .337224
+>	-115.235	 .36122	 1.0685	 .331676
+>	-109.229	 .286514	 1.1083	 .323644
+>	-104.326	 .179041	 1.14475	 .317612
+>	-100.654	 .0944182	 1.16668	 .313257
+>	-96.717	 .0224981	 1.18285	 .308579
+>	-88.294	-.0987983	 1.17985	 .291938
+>	-82.732	-.192087	 1.16569	 .279712
+>	-78.792	-.260585	 1.14766	 .270514
+>	-74.684	-.332289	 1.11245	 .258796
+>	-68.724	-.437124	 1.04423	 .240277
+>	-62.898	-.538479	 1.00284	 .227706
+>	-58.21	-.597396	 .964904	 .216304
+>	-53.667	-.656399	 .902	 .202992
+>	-50.765	-.672972	 .824839	 .187843
+>	-44.075	-.680016	 .70189	 .15994
+>	-38.087	-.697794	 .601615	 .139345
+>	-32.988	-.654592	 .508157	 .114918
+>	-29.644	-.534917	 .428544	 .0888158
+>	-24.435	-.385767	 .279636	 .0559128
+>	-18.9976	-.353596	 .190947	 .0422828
+>	-12.7843	-.462678	 .0923166	 .0422594
+>	-11.576	-.8	 .0360235	-.0662382
+>	-10	-.77	 .017	-.0705702
+>	-8	-.48	 .012	-.0780512
+>	-6	-.24	 .009	-.0832276
+>	-4	-.04	 .008	-.0885102
+>	-2	 .19	 .006	-.0945113
+>	 0	 .42	 .006	-.0963525
+>	 2	 .65	 .007	-.0981683
+>	 4	 .89	 .009	-.0979297
+>	 6	 1.1	 .012	-.0971305
+>	 8	 1.31	 .013	-.0952536
+>	 10	 1.46	 .016	-.0903141
+>	 12	 1.6	 .025	-.076083
+>	 13	 1.64	 .035	-.072
+>	 14	 1.6	 .047	-.076083
+>	 15	 1.51	 .061	-.078
+>	 16	 1.33	 .077	-.0948032
+>	 17	 1.22	 .094	-.12
+>	 18	 1.13	 .114	-.13
+>	 19	 1.04	 .136	-.148
+>	 21.6052	 .805728	 .287518	-.0970675
+>	 26.0685	 .82482	 .443562	-.115436
+>	 30.4729	 .960391	 .578245	-.149242
+>	 36.2434	 .955236	 .721142	-.175905
+>	 43.0916	 .926053	 .811181	-.199176
+>	 47.5626	 .865285	 .874416	-.20942
+>	 55.5368	 .696753	 1.02168	-.229422
+>	 60.6687	 .625756	 1.09542	-.246506
+>	 66.9251	 .494851	 1.14396	-.259925
+>	 71.0713	 .400956	 1.17904	-.270017
+>	 75.4967	 .303082	 1.23513	-.285292
+>	 80.7546	 .198854	 1.26797	-.299503
+>	 86.9035	 .0991606	 1.27179	-.311714
+>	 91.8656	-.0141033	 1.26512	-.320474
+>	 95.7937	-.111741	 1.25984	-.32936
+>	 99.8441	-.213604	 1.25439	-.340657
+>	 104.9345	-.317091	 1.20479	-.344329
+>	 110.438	-.427282	 1.12724	-.344673
+>	 115.851	-.538665	 1.09443	-.362627
+>	 124.048	-.62882	 .977697	-.36456
+>	 129.729	-.694648	 .872127	-.361712
+>	 136.342	-.796478	 .805112	-.381556
+>	 140.532	-.770243	 .731898	-.365943
+>	 144.457	-.728508	 .632834	-.340744
+>	 145.071	-.721288	 .616169	-.336285
+>	 150.541	-.673789	 .466421	-.301286
+>	 155.322	-.597085	 .308061	-.254852
+>	 160.622	-.843305	 .271397	-.348484
+>	 163.659	-1.12419	 .183135	-.452806
+>	 168.462	-.88035	 .0725074	-.365485
+>	 175.014	-.474699	 .0278734	-.225261
+>	 180	-.08828	 .0356	-.04065
+SETNB	4
+*SETNAME	LS1m17r2
+XA	 25
+THICK	 17
+REYN	 2000000
+DEPL	 0
+NALPHA	86
+NVALS	3
+FORM TABLE DEG
+>	-180	-.08828	 .0356	-.04065
+>	-177.793	 .083013	 .0385332	 .0411601
+>	-172.182	 .700664	 .0696315	 .316972
+>	-168.549	 .917478	 .17244	 .389452
+>	-165.099	 .661072	 .267505	 .285577
+>	-159.593	 .476822	 .344047	 .220581
+>	-154.91	 .612242	 .426376	 .278532
+>	-150.611	 .69743	 .536458	 .321684
+>	-145.485	 .756548	 .680669	 .360409
+>	-141.269	 .7162	 .771878	 .361506
+>	-134.541	 .642577	 .828718	 .347442
+>	-127.576	 .571983	 .886081	 .336759
+>	-124.171	 .536551	 .937986	 .338233
+>	-120.559	 .466093	 1.00015	 .337224
+>	-115.235	 .36122	 1.0685	 .331676
+>	-109.229	 .286514	 1.1083	 .323644
+>	-104.326	 .179041	 1.14475	 .317612
+>	-100.654	 .0944182	 1.16668	 .313257
+>	-96.717	 .0224981	 1.18285	 .308579
+>	-88.294	-.0987983	 1.17985	 .291938
+>	-82.732	-.192087	 1.16569	 .279712
+>	-78.792	-.260585	 1.14766	 .270514
+>	-74.684	-.332289	 1.11245	 .258796
+>	-68.724	-.437124	 1.04423	 .240277
+>	-62.898	-.538479	 1.00284	 .227706
+>	-58.21	-.597396	 .964904	 .216304
+>	-53.667	-.656399	 .902	 .202992
+>	-50.765	-.672972	 .824839	 .187843
+>	-44.075	-.680016	 .70189	 .15994
+>	-38.087	-.697794	 .601615	 .139345
+>	-32.988	-.654592	 .508157	 .114918
+>	-29.644	-.534917	 .428544	 .0888158
+>	-24.435	-.385767	 .279636	 .0559128
+>	-18.9976	-.353596	 .190947	 .0422828
+>	-12.162	-.462678	 .0872915	 .0422594
+>	-11.13	-.9	 .026	 .0764364
+>	-8	-.6	 .014	-.063914
+>	-6	-.32	 .0109	-.0699977
+>	-4	-.07	 .0096	-.0746394
+>	-2	 .17	 .0078	-.0840982
+>	 0	 .425	 .0083	-.0877629
+>	 2	 .66	 .0083	-.0900475
+>	 4	 .88	 .0092	-.0914113
+>	 6	 1.14	 .0108	-.0926231
+>	 8	 1.33	 .012	-.0908418
+>	 10	 1.5	 .0143	-.0856042
+>	 12	 1.67	 .0192	-.0771188
+>	 14	 1.76	 .0264	-.068128
+>	 15	 1.75	 .061	-.0581336
+>	 15.5	 1.75	 .077	-.0585041
+>	 16	 1.41	 .09	-.101886
+>	 17	 1.31	 .11	-.11168
+>	 18	 1.26	 .146	-.113361
+>	 19	 1.15	 .181	-.116054
+>	 21.6052	 .805728	 .287518	-.0970675
+>	 26.0685	 .82482	 .443562	-.115436
+>	 30.4729	 .960391	 .578245	-.149242
+>	 36.2434	 .955236	 .721142	-.175905
+>	 43.0916	 .926053	 .811181	-.199176
+>	 47.5626	 .865285	 .874416	-.20942
+>	 55.5368	 .696753	 1.02168	-.229422
+>	 60.6687	 .625756	 1.09542	-.246506
+>	 66.9251	 .494851	 1.14396	-.259925
+>	 71.0713	 .400956	 1.17904	-.270017
+>	 75.4967	 .303082	 1.23513	-.285292
+>	 80.7546	 .198854	 1.26797	-.299503
+>	 86.9035	 .0991606	 1.27179	-.311714
+>	 91.8656	-.0141033	 1.26512	-.320474
+>	 95.7937	-.111741	 1.25984	-.32936
+>	 99.8441	-.213604	 1.25439	-.340657
+>	 104.9345	-.317091	 1.20479	-.344329
+>	 110.438	-.427282	 1.12724	-.344673
+>	 115.851	-.538665	 1.09443	-.362627
+>	 124.048	-.62882	 .977697	-.36456
+>	 129.729	-.694648	 .872127	-.361712
+>	 136.342	-.796478	 .805112	-.381556
+>	 140.532	-.770243	 .731898	-.365943
+>	 144.457	-.728508	 .632834	-.340744
+>	 145.071	-.721288	 .616169	-.336285
+>	 150.541	-.673789	 .466421	-.301286
+>	 155.322	-.597085	 .308061	-.254852
+>	 160.622	-.843305	 .271397	-.348484
+>	 163.659	-1.12419	 .183135	-.452806
+>	 168.462	-.88035	 .0725074	-.365485
+>	 175.014	-.474699	 .0278734	-.225261
+>	 180	-.08828	 .0356	-.04065
+MEND
+
+MSTART AERO
+TIPLOS	P
+HUBLOS	N
+WAKE	D
+AERTOL	 .001
+STALLH	Y
+SPTC	-3
+LESTALL	Y
+VPTC	 0
+RDYS	 .2
+DYNWAKE_STEP	 .05
+TSRRAMP .2 .3
+MEND
+
+MSTART WINDSEL
+WMODEL	1
+MEANHTTYPE	1
+USPD	 12
+REFHT	 61.5
+WDIR	 0
+FLINC	 0
+MEND
+
+MSTART SIMCON
+INTTOL	 .005
+MINSTP	 .0000001
+MAXSTP	 1
+OPSTP	 .05
+INITSTEP	 0
+OUTSTR	 7
+T_STOP	 8
+XT_STOP	 5
+ENDT	 60
+WSTART	 0
+MINFAC	 .35
+MEND
+
+MSTART RTOL
+MTOLM	 135
+MTOLR	 1
+MTOLTH	 0
+ATOLB	 0,-5.23598354139262E-03, 5.23598354139262E-03
+ATOLP	 0, 0, 0
+PFAIL	M,M,M
+PTLOCK	 0, 0, 0
+FAILTIME	 18
+ATOLAZ	 0, 0, 0
+MEND
+
+MSTART NGEOM
+NACW	 2.5
+NACL	 6
+NACH	 2.5
+NACZ	 7.2
+NACCD	 1.6
+MEND
+
+MSTART WINDV
+WVMODEL	1
+WSHEAR	 .2
+MEND
+
+MSTART WINDP
+WPMODEL	2
+DIAM	 80
+CT	 .09
+LAMBDA	 6.200000e+00
+DIST	 400
+IFREE	 0
+NB	3
+ADDTURB	3
+CENTRE	 0
+VCENTRE	 0
+MEND
+
+MSTART TOWSDW
+TSMODEL	1
+TDCORR	 1
+MEND
+
+MSTART LOSS
+LMODEL	1
+POWERL	 0
+EFFICY	 95
+NSPD	1
+SPDS 0
+MLMODEL	1
+NTRQ	3
+TRQS 0 960000 1280000
+LOSSTRQ 23000 37000 49000
+MEND
+
+MSTART OUTPUT
+AEROD_NSTS	1
+AEROD_STS	7
+AEROD	1
+C_AXES	GL
+BLOADS_NSTS	2
+BLOADS_STS	1,6
+BMFLAP	1
+BMEDGE	1
+SFFLAP	1
+SFEDGE	1
+BMOUPL	1
+BMINPL	1
+SFOUPL	1
+SFINPL	1
+RADIAL	1
+PITMOM	1
+UNTWIST	0
+BL_AERO	0
+BL_USER	0
+BDEFLS_NSTS	1
+BDEFLS_STS	10
+BDEFLOP	1
+BDEFLIP	1
+BLDACC	1
+TLOADS_NSTS	2
+TLOADS_STS	1,5
+TOW_MX	1
+TOW_MY	1
+TOW_MZ	1
+TOW_FX	1
+TOW_FY	1
+TOW_FZ	1
+TOWD	1
+HUBL	1
+HUBF	1
+DRIVET	1
+GENER	1
+CONTL	1
+GENERAL	1
+TEETL	0
+COEFF	0
+POW	0
+SOFTP	1
+STATE	0
+MEND
+
+MSTART AEROINFO
+WSPEED	 12
+PITCH	-3.49065555555556E-02
+OMEGA	 2.30383266666667
+MEND
+
+MSTART BRAKE
+BMODEL	1
+BRKMAX	 12000
+RAMPTIME	 1
+MEND
+
+MSTART CONTROL
+CMODEL	6
+OMMIN	 89.0117166666667
+OMMAX	 188.4954
+TRQSPD	0
+GAIN_TSR	 .24
+OMDEM_QS	 157.0795
+GTORREF	 13403
+OMDEM_PS	 157.0795
+PITMIN	-3.49065555555556E-02
+PITMAX	 1.570795
+PITDIR_PS	F
+GAINP_QS	 500
+GAINI_QS	 250
+TDSAT_QS	 0
+LSCHED_QS	1
+SCHEDVAL_QS	 1
+GAINP_PS	 .0246
+GAINI_PS	 .01025
+TDSAT_PS	 0
+PITRMIN	-.139626222222222
+PITRMAX	 .139626222222222
+PITACT_NOT_HERE
+LSCHED_PS	2
+SCHEDVAR_PS	PITCH
+NPOINTS_PS	4
+SCHEDX_PS	-.0523596,0,.5236,1
+SCHEDY_PS	1,1,3,3
+MEND
+
+MSTART CURRENT
+ICURRW	1
+NSVEL	 .25
+NSDEPTH	 15
+MUCW	 0
+ICURRS	0
+US0Z0	 .5
+MUCS	 0
+ICURRN	0
+SLOPE	 8.726639E-02
+DB	 4
+TB	 10
+MUCN	 0
+MEND
+
+MSTART ESTOP
+ESTOPMODEL	1
+EMPTRP	G
+OMEPIT	 2.827431
+EPITRT	 .209439333333333
+EPITMX	 1.570795
+EMBTRP	O
+OMEBRK	 2.30383266666667
+OMEBRK_LOW	 5.23598333333333E-02
+MEND
+
+MSTART GENER
+GMODEL	2
+VARSLIP	0
+GTAU1	 0
+GTMAX	 14400
+GTMIN	 0
+PHASEANGLE	 0
+DTDAMP	1
+DTDAMP_NUMORD	1
+DTDAMP_NUM 15.123 0
+DTDAMP_DENORD	2
+DTDAMP_DEN .002643 .0257 1
+MEND
+
+MSTART GRID
+GVOLTS	 11000
+RCON	 0
+XCON	 0
+RBUS	 .01
+XBUS	 .01
+NTURB	 1
+MEND
+
+MSTART NSTOP
+NSTOPMODEL	1
+PITRAT	 8.72663888888889E-02
+PITMAX	 1.570795
+BRKTRP	 5.23598333333333E-02
+MEND
+
+MSTART PCOEFF
+TSRMIN	 2
+TSRMAX	 20
+TSRSTP	 .1
+PITCH	-3.49065555555556E-02
+PITCH_END	-.034906549313777
+PITCH_STEP	 0
+OMEGA	 2.09439333333333
+MEND
+
+MSTART	PCURVE
+VMIN	 4
+VMAX	 25
+VSTEP	 .5
+SCHED	Y
+MEND
+
+MSTART SLOAD
+VMIN	 4
+VMAX	 25
+VSTEP	 .5
+SCHED	Y
+MEND
+
+MSTART SPLOAD
+WSPEED	 50
+AZIMUTH	 0
+YAW	 0
+INC	 0
+PITCH	 1.570795
+SWEEP	A
+END	 6.28318
+STEP	 .174532777777778
+MEND
+
+MSTART START
+STARTMODEL	1
+STARTOMG	 0
+STARTPIT	 1.570795
+SPITRT	-8.72663888888889E-02
+OMGGEN	 89.0117166666667
+ENDPIT	-3.49065555555556E-02
+MEND
+
+MSTART IDLING
+IDLEPITCH	 1.570795
+IDLING_CONTROL	0
+MEND
+
+MSTART PLOAD
+PARKPITCH	 1.570795
+PARKAZIM	 0
+PARKED_CONTROL	0
+MEND
+
+
+		]]>
+	</BladedData>
+<PitchActuator>
+  <DemandType>Position</DemandType>
+  <ExternalDLL>false</ExternalDLL>
+  <DLLSpecification>
+    <CodePath />
+    <CallingConvention>cdecl</CallingConvention>
+    <ExternalActuatorData />
+    <CallingMethod>Continuous</CallingMethod>
+    <TimeInterval>0</TimeInterval>
+  </DLLSpecification>
+  <HardwareTracking>false</HardwareTracking>
+  <SetpointTrajectory>
+    <HasRateLimits>false</HasRateLimits>
+    <LowerRateLimit>0</LowerRateLimit>
+    <UpperRateLimit>0</UpperRateLimit>
+    <HasAccelerationLimits>false</HasAccelerationLimits>
+    <LowerAccelerationLimit>0</LowerAccelerationLimit>
+    <UpperAccelerationLimit>0</UpperAccelerationLimit>
+  </SetpointTrajectory>
+  <PositionResponse xsi:type="Response_2ndOrder" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Frequency>6.2831853071795862</Frequency>
+    <Damping>0.8</Damping>
+  </PositionResponse>
+  <RateResponse xsi:type="Response_1stOrder" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <LagTime>0.3</LagTime>
+  </RateResponse>
+  <HasLimitSwitches>false</HasLimitSwitches>
+  <LimitSwitches>
+    <Min>0</Min>
+    <Max>0</Max>
+  </LimitSwitches>
+  <HasEndStops>false</HasEndStops>
+  <EndStops>
+    <Min>0</Min>
+    <Max>0</Max>
+  </EndStops>
+  <EndStopStiffness>0</EndStopStiffness>
+  <IncludeBearingFriction>false</IncludeBearingFriction>
+  <BearingFriction>
+    <UseLookUpTables>false</UseLookUpTables>
+    <KineticBaseValue>0</KineticBaseValue>
+    <Moment_xy_Gain>0</Moment_xy_Gain>
+    <Force_xy_Gain>0</Force_xy_Gain>
+    <Force_z_Gain>0</Force_z_Gain>
+    <Rate_Gain>0</Rate_Gain>
+    <Moment_xy_LookUpTable />
+    <Force_xy_LookUpTable />
+    <Force_z_LookUpTable />
+    <Rate_LookUpTable />
+    <StictionBaseValue>0</StictionBaseValue>
+    <KineticFrictionGain>0</KineticFrictionGain>
+    <KineticFrictionLookUpTable />
+  </BearingFriction>
+  <Drive xsi:type="ActuatorDrive_None" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  <DebugActuator>false</DebugActuator>
+  <IsEncrypted>false</IsEncrypted>
+  <IndividualPitchControl>false</IndividualPitchControl>
+  <SingleActuator>false</SingleActuator>
+  <SafetySystemDefinition xsi:type="SafetySystem_Rate" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <TorqueLimits xsi:type="TorqueLimits">
+      <Limits>
+        <Min>0</Min>
+        <Max>0</Max>
+      </Limits>
+    </TorqueLimits>
+    <RateEntryType>Constant</RateEntryType>
+    <RateDemand>0</RateDemand>
+    <RateAgainstPosition />
+    <RateAgainstTime />
+  </SafetySystemDefinition>
+</PitchActuator>
+<Waves>
+  <SpectrumFilePath />
+  <EnableWaves>false</EnableWaves>
+  <PhaseOrigin>{{0} {0}}</PhaseOrigin>
+  <WaveCurrentInteractionMethod>Type1</WaveCurrentInteractionMethod>
+</Waves>
+<EncryptionGroups />
+<Control>
+  <PitchControl>Continuous</PitchControl>
+  <TorqueControl>Continuous</TorqueControl>
+  <YawControl>Continuous</YawControl>
+  <MeasuredSignalProperties>
+    <Seed>0</Seed>
+    <TurnOffNoise>true</TurnOffNoise>
+    <_measured_shaft_power>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_shaft_power>
+    <_measured_rotor_speed>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_rotor_speed>
+    <_measured_electrical_power_output>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_electrical_power_output>
+    <_measured_generator_speed>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_generator_speed>
+    <_measured_generator_torque>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_generator_torque>
+    <_measured_yaw_bearing_angular_position>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_yaw_bearing_angular_position>
+    <_measured_yaw_bearing_angular_velocity>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_yaw_bearing_angular_velocity>
+    <_measured_yaw_bearing_angular_acceleration>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_yaw_bearing_angular_acceleration>
+    <_measured_yaw_motor_rate>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_yaw_motor_rate>
+    <_measured_yaw_error>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_yaw_error>
+    <_measured_nacelle_angle_from_north>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_nacelle_angle_from_north>
+    <_measured_tower_top_fore_aft_acceleration>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_tower_top_fore_aft_acceleration>
+    <_measured_tower_top_side_side_acceleration>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_tower_top_side_side_acceleration>
+    <_measured_shaft_torque>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_shaft_torque>
+    <_measured_yaw_bearing_my>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_yaw_bearing_my>
+    <_measured_yaw_bearing_mz>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_yaw_bearing_mz>
+    <_measured_nacelle_roll_angle>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_nacelle_roll_angle>
+    <_measured_nacelle_nodding_angle>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_nacelle_nodding_angle>
+    <_measured_nacelle_roll_acceleration>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_nacelle_roll_acceleration>
+    <_measured_nacelle_nodding_acceleration>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_nacelle_nodding_acceleration>
+    <_measured_nacelle_yaw_acceleration>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_nacelle_yaw_acceleration>
+    <_measured_teeter_angle>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_teeter_angle>
+    <_measured_teeter_velocity>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_teeter_velocity>
+    <_measured_rotor_azimuth_angle>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_rotor_azimuth_angle>
+    <_nominal_hub_flow_speed>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_nominal_hub_flow_speed>
+    <_measured_rotating_hub_my>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_rotating_hub_my>
+    <_measured_rotating_hub_mz>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_rotating_hub_mz>
+    <_measured_fixed_hub_my>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_fixed_hub_my>
+    <_measured_fixed_hub_mz>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_fixed_hub_mz>
+    <_measured_fixed_hub_fx>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_fixed_hub_fx>
+    <_measured_fixed_hub_fy>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_fixed_hub_fy>
+    <_measured_fixed_hub_fz>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_fixed_hub_fz>
+    <_measured_pitch_angle>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_pitch_angle>
+    <_measured_pitch_rate>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_pitch_rate>
+    <_measured_pitch_actuator_torque>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_pitch_actuator_torque>
+    <_measured_pitching_inertia>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_pitching_inertia>
+    <_measured_pitch_bearing_friction>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_pitch_bearing_friction>
+    <_measured_pitch_bearing_stiction>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_pitch_bearing_stiction>
+    <_measured_blade_out_of_plane_bending_moment>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_blade_out_of_plane_bending_moment>
+    <_measured_blade_in_plane_bending_moment>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_blade_in_plane_bending_moment>
+    <_measured_pitch_bearing_mx>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_pitch_bearing_mx>
+    <_measured_pitch_bearing_my>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_pitch_bearing_my>
+    <_measured_pitch_bearing_mz>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_pitch_bearing_mz>
+    <_measured_pitch_bearing_radial_force>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_pitch_bearing_radial_force>
+    <_measured_pitch_bearing_axial_force>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_pitch_bearing_axial_force>
+    <_measured_pitch_bearing_fx>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_pitch_bearing_fx>
+    <_measured_pitch_bearing_fy>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_pitch_bearing_fy>
+    <_measured_aileron_angle>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_aileron_angle>
+    <_measured_aileron_rate>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_aileron_rate>
+    <_measured_blade_strain_gauge_m>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_blade_strain_gauge_m>
+    <_measured_blade_accelerometer_acceleration>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_blade_accelerometer_acceleration>
+    <_measured_lidar_beam_focal_point_velocity>
+      <SignalQuality>Raw</SignalQuality>
+      <SignalNoise>None</SignalNoise>
+      <NoiseMagnitude>0</NoiseMagnitude>
+      <SamplingPeriod>0</SamplingPeriod>
+      <DiscretisationStep>0</DiscretisationStep>
+      <TransducerFaults>
+        <ApplyOnlyToFirst>true</ApplyOnlyToFirst>
+        <MiscalibrationOffset>0</MiscalibrationOffset>
+        <InverseInstallation>false</InverseInstallation>
+        <FailTime>0</FailTime>
+        <FaultType>None</FaultType>
+        <NoiseMultiplier>1</NoiseMultiplier>
+        <FailureValue>0</FailureValue>
+        <FailureValueRampRate>0</FailureValueRampRate>
+        <ConstantOffset>0</ConstantOffset>
+        <GrowingOffset>0</GrowingOffset>
+        <Magnitude>0</Magnitude>
+        <Period>1</Period>
+      </TransducerFaults>
+    </_measured_lidar_beam_focal_point_velocity>
+    <LogMeasuredSignals>false</LogMeasuredSignals>
+    <IsEncrypted>false</IsEncrypted>
+  </MeasuredSignalProperties>
+  <ExternalControllers>
+    <TimeStep>0.1</TimeStep>
+    <AdditionalParameters />
+    <OmitControllersWherePossible>false</OmitControllersWherePossible>
+    <LogExternalControllers>false</LogExternalControllers>
+    <LogSwapArray>false</LogSwapArray>
+    <ExternalControllers />
+  </ExternalControllers>
+</Control>
+
+</BladedProject>
