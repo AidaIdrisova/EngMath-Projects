@@ -1,0 +1,20 @@
+num = xlsread('Final.xls');
+ss = size(num);
+numseries = ss(2);
+p = 4;
+Mdl = varm(numseries,p);
+EstMdl = estimate(Mdl,num);
+numperiods=4;
+[PRED,YMSE] = forecast(EstMdl,numperiods,num);
+AA=[num' PRED'];
+ss=size(AA);
+x=linspace(2006,2018,ss(2));
+%x=linspace(2006,2018,48);
+figure();
+plot(x',AA(end,:));
+
+real=[num(:,end)' 116.03 132.25 136.47 141.93];
+hold on;
+plot(x,real);
+k=PRED(:,end);
+error=immse(k',real((end-3):end));
